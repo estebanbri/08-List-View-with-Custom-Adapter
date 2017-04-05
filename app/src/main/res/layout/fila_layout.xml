@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#AFA5A5">
+    
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:background="#000000"
+        />
+
+    <TextView
+        android:id="@+id/textview_nombre_pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text=" 'Nombre de Pelicula' "
+        android:gravity="center"
+        android:layout_toRightOf="@+id/imageview"/>
+
+    <TextView
+        android:id="@+id/textview_rating_pelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/textview_nombre_pelicula"
+        android:gravity="center"
+        android:text=" 'Raiting de Pelicula'" />
+
+
+    <View
+        android:id="@+id/view_linea"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#225500"
+        android:layout_below="@+id/imageview"/>
+    
+</RelativeLayout>
