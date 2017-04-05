@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     int [] posters_peliculas = {R.drawable.matrix};
     String [] titulo_peliculas = {"Matrix"};
-    String [] raiting_peliculas = {"10/10"};
+    String [] raiting_peliculas = {"Raiting 7.4/10"};
 
     Adaptador_De_Datos_Peliculas adaptador_personalizado;
 

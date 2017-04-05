@@ -3,7 +3,8 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="80dp"
-    android:background="#AFA5A5">
+    android:background="#AFA5A5"
+    >
     
     <ImageView
         android:id="@+id/imageview"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="75dp"
         android:layout_toRightOf="@+id/textview_nombre_pelicula"
+        android:layout_alignParentRight="true"
         android:gravity="center"
         android:text=" 'Raiting de Pelicula'" />
 
